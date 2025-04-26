@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - ティザーサイト</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="hero" id="hero-section">
+            <!-- 背景画像はJavaScriptで動的に追加 -->
+            
+            <div class="hero-content">
+                <h1>近日公開</h1>
+                <p>新しいプロジェクトがもうすぐ始まります。ぜひお楽しみに！</p>
+                
+                <div class="countdown" id="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-num" id="days">00</div>
+                        <div class="countdown-label">日</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-num" id="hours">00</div>
+                        <div class="countdown-label">時間</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-num" id="minutes">00</div>
+                        <div class="countdown-label">分</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-num" id="seconds">00</div>
+                        <div class="countdown-label">秒</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">↓</div>
+        </section>
+        
+        <section class="registration" id="registration-section">
+            <!-- 背景画像はJavaScriptで動的に追加 -->
+            
+            <div class="registration-container">
+                <h2>事前登録</h2>
+                <p>メールアドレスを登録して、最新情報をいち早くゲットしましょう。登録者限定の特典もあります！</p>
+                
+                <form class="registration-form" id="registrationForm">
+                    <input type="text" placeholder="お名前" required>
+                    <input type="email" placeholder="メールアドレス" required>
+                    <button type="submit">登録する</button>
+                    <div class="success-message" id="successMessage">
+                        登録が完了しました！メールをご確認ください。
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
